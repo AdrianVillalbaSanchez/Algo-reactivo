@@ -11,6 +11,9 @@ class Card extends Component {
         <div className="cardModel">
           <p> {this.props.model} </p>
         </div>
+        <div className="cardArrow">
+          <img src="cardArrow.png" />
+        </div>
       </div>
     );
   }

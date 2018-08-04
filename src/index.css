@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .card {
@@ -11,4 +11,18 @@ body {
   margin: 10px 10px 10px 10px;
   padding: 10px 5px 10px 40px;
   width: 200px;
+}
+
+.cardBrand {
+  font-weight: 600;
+}
+
+.cardModel {
+  padding-top: -20px;
+  font-weight: 100;
+  font-size: 0.7em;
+}
+
+.cardArrow {
+  float: right;
 }
