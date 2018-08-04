@@ -11,8 +11,8 @@ class Card extends Component {
         <div className="cardModel">
           <p> {this.props.model} </p>
         </div>
-        <div className="cardArrow">
-          <img src="cardArrow.png" />
+        <div className="cardYear">
+          <p> {this.props.year} </p>
         </div>
       </div>
     );

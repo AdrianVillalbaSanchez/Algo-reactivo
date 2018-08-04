@@ -23,6 +23,10 @@ body {
   font-size: 0.7em;
 }
 
+.cardYear {
+  font-size: 0.6em;
+}
+
 .cardArrow {
   float: right;
 }
