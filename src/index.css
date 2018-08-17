@@ -4,7 +4,7 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-.card {
+.cardLink {
   border-radius: 5px;
   display: inline-block;
   background-color: rgb(238, 238, 238);
@@ -17,20 +17,10 @@ body {
   background-color: silver;
 }
 
-.cardBrand {
-  font-weight: 600;
+.webTitle{
+  font-weight: 700;
 }
 
-.cardModel {
-  padding-top: -20px;
-  font-weight: 100;
+.webLink{
   font-size: 0.7em;
-}
-
-.cardYear {
-  font-size: 0.6em;
-}
-
-.cardArrow {
-  float: right;
 }

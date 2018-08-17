@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div><Link brand={"Gibson"} model={"Les Paul"} year={"1959"} /> </div>
+        <div><Link title={"Title"} link={"Link"} /> </div>
       </div>
     );
   }
