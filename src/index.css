@@ -24,3 +24,7 @@ body {
 .webLink{
   font-size: 0.7em;
 }
+
+.formIdea{
+  border: 1px black solid;
+}
