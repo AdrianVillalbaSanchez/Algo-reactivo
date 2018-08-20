@@ -16,8 +16,19 @@ class App extends Component {
     this.setState({ linkTitle: linkTitle.target.value })
   }
 
+  deleteLink(index) {
+    let linksArray = this.state.links;
+    linksArray.splice(index, 1);
+    this.setState({ links: linksArray })
+  }
+
 
   render() {
+
+    let links = this.state.links.map((val, key) => {
+      return <Link key={key} title={val} deleteMethod={() => this.deleteLink(key)} />
+    })
+
     return (
       <div className="App">
 
@@ -30,7 +41,7 @@ class App extends Component {
             value={this.state.linkTitle}
             onChangeText={linkTitle => this.updateLinkTitle(linkTitle)}
           />
-          <div className="btn"> Add new link </div>
+          <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>
         </div>
 
         <div><Link title={this.state.title} link={this.state.link} /> </div>
