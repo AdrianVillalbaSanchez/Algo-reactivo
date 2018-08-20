@@ -45,4 +45,5 @@ body {
 
 .removeBtn {
   color: red;
+  float: right;
 }

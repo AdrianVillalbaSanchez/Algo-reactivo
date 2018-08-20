@@ -44,12 +44,17 @@ class App extends Component {
         <div className="header"> SAVE YOUR LINKS! </div>
 
         <div className="formLink">
-          <input type="text"
+          <div> Title: <input type="text"
             ref={((input) => { this.textInput = input })}
             className="textInput"
             value={this.state.linkTitle}
             onChange={linkTitle => this.updateLinkTitle(linkTitle)}
-          />
+          /> </div>
+          <br />
+
+          <div>
+            Description: <textarea name="message" rows="5" cols="20"></textarea>
+          </div>
           <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>
         </div>
 
