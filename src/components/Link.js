@@ -8,7 +8,12 @@ class Link extends Component {
         <div className="webTitle">
           <p> {this.props.title}</p>
         </div>
+        <div className="webDesc">
+          <p> Description asdfsadfsadfsadfsadf </p>
+        </div>
+        <div className="removeBtn" onClick={this.props.deleteMethod}> Remove </div>
       </div>
+
     );
   }
 }

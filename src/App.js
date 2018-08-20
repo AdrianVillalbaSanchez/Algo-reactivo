@@ -41,7 +41,7 @@ class App extends Component {
     return (
       <div className="App">
 
-        <div className="header"> H E A D E R  </div>
+        <div className="header"> SAVE YOUR LINKS! </div>
 
         <div className="formLink">
           <input type="text"
@@ -53,7 +53,7 @@ class App extends Component {
           <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>
         </div>
 
-        <div>{links} </div>
+        <div> {links} </div>
 
       </div >
     );

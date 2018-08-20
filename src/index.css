@@ -21,12 +21,28 @@ body {
   font-weight: 700;
 }
 
+.webDesc{
+  font-size: 0.6em;
+}
+
 .webLink{
   font-size: 0.7em;
 }
 
 .formLink{
-  border: 1px black solid;
   margin-top: 40px;
   text-align: center;
+}
+
+.btn{
+  margin-top: 10px;
+}
+
+.header{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.removeBtn {
+  color: red;
 }
