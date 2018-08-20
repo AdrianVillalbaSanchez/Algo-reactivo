@@ -7,34 +7,25 @@ class App extends Component {
     super(props);
 
     this.state = {
-      title: '',
-      link: ''
+      links: [
+        'hola'
+      ]
     }
   }
+
 
 
   render() {
     return (
       <div className="App">
 
-        <div className="formIdea">
-          <form>
-            <label>
-              Title:
-            </label>
-            <input type="text" name="title" />
-            <br />
-            <label>
-              Link:
-            </label>
-            <input type="text" name="link" />
-            <br />
-            <button type="submit"> Add new link </button>
-          </form>
+        <div className="header"> H E A D E R  </div>
 
+        <div className="formLink">
+          <input type="text" ref={((input) => { this.textInput = input })} />
         </div>
 
-        <div><Link title={"Title"} link={"Link"} /> </div>
+        <div><Link title={this.state.title} link={this.state.link} /> </div>
 
       </div >
     );
