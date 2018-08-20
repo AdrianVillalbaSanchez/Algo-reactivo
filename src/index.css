@@ -27,4 +27,6 @@ body {
 
 .formLink{
   border: 1px black solid;
+  margin-top: 40px;
+  text-align: center;
 }

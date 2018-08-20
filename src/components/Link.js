@@ -8,9 +8,6 @@ class Link extends Component {
         <div className="webTitle">
           <p> {this.props.title}</p>
         </div>
-        <div className="webLink">
-          <p> {this.props.link} </p>
-        </div>
       </div>
     );
   }

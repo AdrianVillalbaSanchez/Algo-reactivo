@@ -16,6 +16,15 @@ class App extends Component {
     this.setState({ linkTitle: linkTitle.target.value })
   }
 
+  addLink() {
+    if (this.state.linkTitle === '') { return }
+
+    let linksArray = this.state.links;
+    linksArray.push(this.state.linkTitle);
+    this.setState({ linkTitle: '' });
+    this.textInput.focus();
+  }
+
   deleteLink(index) {
     let linksArray = this.state.links;
     linksArray.splice(index, 1);
@@ -39,12 +48,12 @@ class App extends Component {
             ref={((input) => { this.textInput = input })}
             className="textInput"
             value={this.state.linkTitle}
-            onChangeText={linkTitle => this.updateLinkTitle(linkTitle)}
+            onChange={linkTitle => this.updateLinkTitle(linkTitle)}
           />
           <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>
         </div>
 
-        <div><Link title={this.state.title} link={this.state.link} /> </div>
+        <div>{links} </div>
 
       </div >
     );
