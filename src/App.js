@@ -53,7 +53,7 @@ class App extends Component {
           <br />
 
           <div>
-            Description: <textarea name="message" rows="5" cols="20"></textarea>
+            Description: <textarea className="textArea" name="message" rows="5" cols="20"></textarea>
           </div>
           <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>
         </div>

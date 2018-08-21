@@ -47,3 +47,7 @@ body {
   color: red;
   float: right;
 }
+
+.textArea{
+  resize: none;
+}
