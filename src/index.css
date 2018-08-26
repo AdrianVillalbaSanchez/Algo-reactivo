@@ -35,6 +35,9 @@ body {
 }
 
 .btn{
+  border: 1px solid black;
+  display: inline;
+  padding: 5px 5px;
   margin-top: 10px;
 }
 
