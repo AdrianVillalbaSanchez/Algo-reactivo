@@ -12,7 +12,6 @@ class Link extends Component {
         <div className="webDesc">
           <p> Description asdfsadfsadfsadfsadf </p>
         </div>
-
       </div>
 
     );
