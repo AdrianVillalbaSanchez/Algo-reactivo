@@ -52,7 +52,7 @@ class App extends Component {
           /> </div>
           <br />
 
-          <div>
+          <div className="textAreaForm">
             Description: <textarea className="textArea" name="message" rows="5" cols="20"></textarea>
           </div>
           <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>

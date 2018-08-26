@@ -54,3 +54,7 @@ body {
 .textArea{
   resize: none;
 }
+
+.textAreaForm{
+  margin-bottom: 20px;
+}
