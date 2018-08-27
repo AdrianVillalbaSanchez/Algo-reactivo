@@ -21,9 +21,6 @@ body {
   font-weight: 700;
 }
 
-.webDesc{
-  font-size: 0.6em;
-}
 
 .webLink{
   font-size: 0.7em;
@@ -38,7 +35,7 @@ body {
   border: 1px solid black;
   display: inline;
   padding: 5px 5px;
-  margin-top: 10px;
+ 
 }
 
 .header{

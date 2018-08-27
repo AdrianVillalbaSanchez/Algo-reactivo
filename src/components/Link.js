@@ -9,9 +9,6 @@ class Link extends Component {
           <p> {this.props.title}</p>
         </div>
         <div className="removeBtn" onClick={this.props.deleteMethod}> × </div>
-        <div className="webDesc">
-          <p> Description asdfsadfsadfsadfsadf </p>
-        </div>
       </div>
 
     );

@@ -50,11 +50,8 @@ class App extends Component {
             value={this.state.linkTitle}
             onChange={linkTitle => this.updateLinkTitle(linkTitle)}
           /> </div>
-          <br />
 
-          <div className="textAreaForm">
-            Description: <textarea className="textArea" name="message" rows="5" cols="20"></textarea>
-          </div>
+          <br />
 
           <div> Link:
                 <input type="text" className="linkInput" />
