@@ -44,7 +44,7 @@ class App extends Component {
         <div className="header"> SAVE YOUR LINKS! </div>
 
         <div className="formLink">
-          <div> Title: <input type="text"
+          <div> Title:&nbsp;<input type="text"
             ref={((input) => { this.textInput = input })}
             className="textInput"
             value={this.state.linkTitle}
@@ -53,7 +53,7 @@ class App extends Component {
 
           <br />
 
-          <div> Link:
+          <div> Link: &nbsp;
                 <input type="text" className="linkInput" />
           </div>
           <div className="btn" onClick={this.addLink.bind(this)}> Add new link </div>

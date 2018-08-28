@@ -35,7 +35,6 @@ body {
   border: 1px solid black;
   display: inline;
   padding: 5px 5px;
- 
 }
 
 .header{
@@ -54,4 +53,8 @@ body {
 
 .textAreaForm{
   margin-bottom: 20px;
+}
+
+.linkInput {
+  margin-bottom: 30px;
 }
