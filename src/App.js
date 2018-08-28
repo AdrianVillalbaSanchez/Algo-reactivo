@@ -8,6 +8,7 @@ class App extends Component {
 
     this.state = {
       linkTitle: '',
+      linkInself: '',
       links: []
     }
   }
@@ -17,11 +18,9 @@ class App extends Component {
   }
 
   addLink() {
-    if (this.state.linkTitle === '') { return }
-
     let linksArray = this.state.links;
     linksArray.push(this.state.linkTitle);
-    this.setState({ linkTitle: '' });
+    this.setState({ linkTitle: '', linkInself: '' });
     this.textInput.focus();
   }
 
